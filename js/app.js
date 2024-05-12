@@ -4,7 +4,7 @@ const FOUR_STAR_ODDS = 0.051
 const FIVE_STAR_ODDS = 0.006
 let p5, pm5, get5, gty5, p4, pm4, get4, gty4, wishCount
 let probs = []
-init(160, 6, 42)
+init(160, 0, 0)
 while (wishCount > 0) {
     getRareItem()
     log()
